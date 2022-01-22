@@ -1,14 +1,14 @@
-import { HelloWorld } from 'app/hello-world'
-import { theme } from 'app/theme'
-import { DripsyProvider } from 'dripsy'
-import { StatusBar } from 'expo-status-bar'
-import React from 'react'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
-import { enableScreens } from 'react-native-screens'
+import { HelloWorld } from 'app/hello-world';
+import { theme } from 'app/theme';
+import { DripsyProvider } from 'dripsy';
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { enableScreens } from 'react-native-screens';
 
-enableScreens(true)
+enableScreens(true);
 
-export default function App() {
+export const App = () => {
   return (
     <DripsyProvider theme={theme}>
       <SafeAreaProvider>
@@ -16,5 +16,5 @@ export default function App() {
         <HelloWorld />
       </SafeAreaProvider>
     </DripsyProvider>
-  )
-}
+  );
+};

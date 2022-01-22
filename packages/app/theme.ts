@@ -1,14 +1,14 @@
 // https://www.dripsy.xyz/usage/theming/create
-import { makeTheme } from 'dripsy'
+import { makeTheme } from 'dripsy';
 
 const theme = makeTheme({
   // Your theme goes here
-})
+});
 
-type MyTheme = typeof theme
+type MyTheme = typeof theme;
 
 declare module 'dripsy' {
-  type DripsyCustomTheme = MyTheme
+  type DripsyCustomTheme = MyTheme;
 }
 
-export { theme }
+export { theme };
