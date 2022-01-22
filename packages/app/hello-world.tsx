@@ -1,12 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native'
 
-export function HelloWorld() {
-  return (
+export const HelloWorld = () =>
     <View style={styles.container}>
       <Text>Hello, World!</Text>
-    </View>
-  )
-}
+     </View>
 
 const styles = StyleSheet.create({
   container: {

@@ -14,7 +14,7 @@ export default function App() {
     <DripsyProvider theme={theme}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
-        <HelloWorld />
+         <HelloWorld />
       </SafeAreaProvider>
     </DripsyProvider>
   )
