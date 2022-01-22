@@ -14,10 +14,6 @@ const withTM = require('next-transpile-modules')([
 const nextConfig = {}
 
 module.exports = withPlugins(
-  [
-    withTM,
-    withBundleAnalyzer,
-    [withExpo, { projectRoot: __dirname + '/../..' }]
-  ],
+  [withTM, withBundleAnalyzer, [withExpo, { projectRoot: __dirname + '/../..' }]],
   nextConfig
 )

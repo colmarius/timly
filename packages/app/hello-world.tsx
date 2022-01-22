@@ -1,9 +1,4 @@
-import { View, Text, StyleSheet } from 'react-native'
-
-export const HelloWorld = () =>
-    <View style={styles.container}>
-      <Text>Hello, World!</Text>
-     </View>
+import { StyleSheet, Text, View } from 'react-native'
 
 const styles = StyleSheet.create({
   container: {
@@ -12,3 +7,9 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   }
 })
+
+export const HelloWorld = () => (
+  <View style={styles.container}>
+    <Text>Hello, World!</Text>
+  </View>
+)

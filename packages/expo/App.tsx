@@ -1,11 +1,10 @@
-import React from 'react'
-import { enableScreens } from 'react-native-screens'
-import { StatusBar } from 'expo-status-bar'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
-import { DripsyProvider } from 'dripsy'
-
-import { theme } from 'app/theme'
 import { HelloWorld } from 'app/hello-world'
+import { theme } from 'app/theme'
+import { DripsyProvider } from 'dripsy'
+import { StatusBar } from 'expo-status-bar'
+import React from 'react'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { enableScreens } from 'react-native-screens'
 
 enableScreens(true)
 
@@ -14,7 +13,7 @@ export default function App() {
     <DripsyProvider theme={theme}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
-         <HelloWorld />
+        <HelloWorld />
       </SafeAreaProvider>
     </DripsyProvider>
   )
