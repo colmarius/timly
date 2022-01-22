@@ -4,7 +4,7 @@ import 'raf/polyfill';
 global.setImmediate = requestAnimationFrame;
 import 'setimmediate';
 
-import { theme } from 'app/theme';
+import { theme } from 'app';
 import { DripsyProvider } from 'dripsy';
 import { AppProps } from 'next/app';
 import Head from 'next/head';

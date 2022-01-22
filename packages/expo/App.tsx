@@ -1,5 +1,4 @@
-import { HelloWorld } from 'app/hello-world';
-import { theme } from 'app/theme';
+import { HelloWorld, theme } from 'app';
 import { DripsyProvider } from 'dripsy';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
