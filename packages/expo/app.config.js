@@ -1,5 +1,5 @@
 const STAGE = process.env.STAGE
-const SCHEME = process.env.SCHEME ?? 'com.example'
+const SCHEME = process.env.SCHEME ?? 'com.timly'
 
 const envConfig = {
   development: {
@@ -22,11 +22,11 @@ const envConfig = {
 const config = envConfig[STAGE ?? 'development']
 
 export default {
-  name: 'Example',
-  description: 'Expo + Next.js Monorepo Example',
-  slug: 'example',
-  scheme: 'example',
-  owner: 'poolpoolpool',
+  name: 'Timly',
+  description: 'Timly: time tally tracker app',
+  slug: 'timly',
+  scheme: 'timly',
+  owner: 'colmarius',
   icon: config.icon,
   version: '0.0.1',
   splash: {
