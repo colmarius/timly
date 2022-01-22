@@ -8,7 +8,7 @@ import { enableScreens } from 'react-native-screens';
 
 enableScreens(true);
 
-export const App = () => {
+const App = () => {
   return (
     <DripsyProvider theme={theme}>
       <SafeAreaProvider>
@@ -18,3 +18,5 @@ export const App = () => {
     </DripsyProvider>
   );
 };
+
+export default App;
