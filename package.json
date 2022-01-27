@@ -20,5 +20,6 @@
   },
   "resolutions": {
     "babel-preset-expo": "^8.5.1"
-  }
+  },
+  "dependencies": {}
 }
