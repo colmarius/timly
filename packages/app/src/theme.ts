@@ -5,10 +5,4 @@ const theme = makeTheme({
   // Your theme goes here
 });
 
-type MyTheme = typeof theme;
-
-declare module 'dripsy' {
-  type DripsyCustomTheme = MyTheme;
-}
-
 export { theme };
