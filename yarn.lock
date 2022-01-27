@@ -1852,7 +1852,7 @@
     json5 "^1.0.1"
     write-file-atomic "^2.3.0"
 
-"@expo/metro-config@~0.1.84":
+"@expo/metro-config@0.1.84", "@expo/metro-config@~0.1.84":
   version "0.1.84"
   resolved "https://registry.npmjs.org/@expo/metro-config/-/metro-config-0.1.84.tgz"
   integrity sha512-xWSfM0+AxcKw0H8mc1RuKs4Yy4JT4SJfn4yDnGLAlKkHlEC+D2seZvb/Tdd173e/LANmcarNd+OcDYu03AmVWA==
@@ -1862,9 +1862,9 @@
     getenv "^1.0.0"
     metro-react-native-babel-transformer "^0.59.0"
 
-"@expo/next-adapter@^3.1.0":
+"@expo/next-adapter@3.1.0":
   version "3.1.0"
-  resolved "https://registry.npmjs.org/@expo/next-adapter/-/next-adapter-3.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-3.1.0.tgz#ea0856993b7996e365554aee151c6daad861e496"
   integrity sha512-7BHvmwcnxzD8OSx3/aGqpWTYe6eYEvGw9kBEMBhvTz+uf7Rw//8W/xopDP60NBj48gHIOcBl3mNSMgWR67qQhg==
   dependencies:
     "@expo/package-manager" "0.0.47"
@@ -9318,9 +9318,9 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-compose-plugins@^2.2.1:
+next-compose-plugins@2.2.1:
   version "2.2.1"
-  resolved "https://registry.npmjs.org/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz#020fc53f275a7e719d62521bef4300fbb6fde5ab"
   integrity sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==
 
 next-fonts@^1.5.1:

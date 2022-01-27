@@ -1,5 +1,7 @@
 import '../styles/global.scss';
 import 'raf/polyfill';
+
+import React from 'react';
 // @ts-ignore
 global.setImmediate = requestAnimationFrame;
 import 'setimmediate';

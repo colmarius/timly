@@ -2,6 +2,7 @@ import { getInitialProps } from '@expo/next-adapter/document';
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 import React from 'react';
 
+// eslint-disable-next-line fp/no-class
 class Document extends NextDocument {
   render() {
     return (
