@@ -1,8 +1,8 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "scripts": {},
   "license": "MIT",
+  "scripts": {},
   "peerDependencies": {
     "dripsy": "3.0.0",
     "react": "17.0.2",
