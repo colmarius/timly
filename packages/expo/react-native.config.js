@@ -2,6 +2,7 @@
 
 module.exports = {
   dependencies: {
+    // eslint-disable-next-line node/no-missing-require
     ...require('expo-dev-client/dependencies'),
   },
 };

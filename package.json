@@ -15,6 +15,7 @@
     "dev:next": "yarn workspace @timly/next dev",
     "build": "cd packages/next && yarn build",
     "deploy": "vercel --prod --no-clipboard",
+    "lint": "npx eslint --fix ./packages",
     "postinstall": "patch-package"
   },
   "resolutions": {
