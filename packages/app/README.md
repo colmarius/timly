@@ -1,3 +1,3 @@
-## (timly) app
+## @timly/app
 
 wip

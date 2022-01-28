@@ -7,7 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 const withTM = require('next-transpile-modules')([
-  'app',
+  '@timly/app',
   '@gorhom/bottom-sheet',
   '@gorhom/portal',
   'dripsy',

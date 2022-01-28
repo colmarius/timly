@@ -6,7 +6,7 @@ import React from 'react';
 global.setImmediate = requestAnimationFrame;
 import 'setimmediate';
 
-import { theme } from 'app';
+import { theme } from '@timly/app';
 import { DripsyProvider } from 'dripsy';
 import { AppProps } from 'next/app';
 import Head from 'next/head';

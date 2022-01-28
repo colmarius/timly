@@ -1,4 +1,4 @@
-import { HelloWorld, theme } from 'app';
+import { HelloWorld, theme } from '@timly/app';
 import { DripsyProvider } from 'dripsy';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
