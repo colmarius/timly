@@ -7,5 +7,5 @@ packages/mobile/node_modules
 packages/mobile/.expo
 packages/mobile/ios
 packages/mobile/android
-packages/next/node_modules
-packages/next/.next
+packages/web/node_modules
+packages/web/.next
