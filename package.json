@@ -11,9 +11,8 @@
     "packages/web"
   ],
   "scripts": {
-    "mobile:dev": "yarn workspace @timly/mobile dev",
     "mobile:start": "yarn workspace @timly/mobile start:mobile",
-    "web:dev": "yarn workspace @timly/web dev",
+    "web:start": "yarn workspace @timly/web start",
     "build": "cd packages/web && yarn build",
     "deploy": "vercel --prod --no-clipboard",
     "lint": "npx eslint --fix ./packages",
