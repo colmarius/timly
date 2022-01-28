@@ -1,2 +1,2 @@
-export * from './HelloWorld';
 export * from './theme';
+export * from './TimlyApp';

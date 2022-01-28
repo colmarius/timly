@@ -1,4 +1,4 @@
-import { HelloWorld, theme } from '@timly/app';
+import { theme, TimlyApp } from '@timly/app';
 import { DripsyProvider } from 'dripsy';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
@@ -14,7 +14,7 @@ const App = () => {
       <DripsyProvider theme={theme}>
         <SafeAreaProvider>
           <StatusBar style="dark" />
-          <HelloWorld />
+          <TimlyApp />
         </SafeAreaProvider>
       </DripsyProvider>
     </PaperProvider>
