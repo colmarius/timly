@@ -1,5 +1,14 @@
 ## Architecture
 
+Project structure:
+
+```
+packages
+├── app
+├── mobile
+└── web
+```
+
 ### Root Project
 
 - Don't add any package here that are needed by app, mobile or web
