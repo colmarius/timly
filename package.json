@@ -7,11 +7,12 @@
   },
   "workspaces": [
     "packages/app",
-    "packages/expo",
+    "packages/mobile",
     "packages/next"
   ],
   "scripts": {
-    "dev:expo": "yarn workspace @timly/expo dev",
+    "mobile:dev": "yarn workspace @timly/mobile dev",
+    "mobile:start": "yarn workspace @timly/mobile start:mobile",
     "dev:next": "yarn workspace @timly/next dev",
     "build": "cd packages/next && yarn build",
     "deploy": "vercel --prod --no-clipboard",

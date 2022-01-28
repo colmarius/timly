@@ -3,9 +3,9 @@ README.md
 .next
 .vscode
 node_modules
-packages/expo/node_modules
-packages/expo/.expo
-packages/expo/ios
-packages/expo/android
+packages/mobile/node_modules
+packages/mobile/.expo
+packages/mobile/ios
+packages/mobile/android
 packages/next/node_modules
 packages/next/.next
